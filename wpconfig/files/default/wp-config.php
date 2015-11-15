@@ -14,10 +14,10 @@
  * @package WordPress
  */
 
-define('WP_REDIS_HOST', '');
+define('WP_REDIS_HOST', 'wordpress.ehone8.0001.use1.cache.amazonaws.com');
  
-define('WP_HOME','');
-define('WP_SITEURL','');
+define('WP_HOME','wordpress-1514989910.us-east-1.elb.amazonaws.com');
+define('WP_SITEURL','wordpress-1514989910.us-east-1.elb.amazonaws.com');
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
@@ -30,7 +30,7 @@ define('DB_USER', 'wordpress');
 define('DB_PASSWORD', 'wordpress');
 
 /** MySQL hostname */
-define('DB_HOST', '');
+define('DB_HOST', 'wordpress.co1dsujulwzo.us-east-1.rds.amazonaws.com');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
